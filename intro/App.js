@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button } from 'react-native';
-import React,{useState} from 'react';
-import ContadorScreen from './screens/contadorScreen';
+import React from 'react';
+import MenuScreen from './screens/MenuScreen';
 
 
 export default function App()   
@@ -10,7 +10,8 @@ export default function App()
 
   return(
 
-    <ContadorScreen></ContadorScreen>
+      <MenuScreen/>
+    
   );
 }
 
