@@ -62,7 +62,8 @@ export default function ImageBackgroungYSlapshScreen()
 
     <View style={styles.mainOverlay}>
       <Text style={styles.welcome}>Bienvenido a la App</Text>
-      <TouchableOpacity
+
+          <TouchableOpacity
         style={styles.button}
         onPress={()=> alert('Boton presionado')}
       >
@@ -140,6 +141,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   buttonText: {
+    
     color: '#000',
     fontWeight: '700',
   },

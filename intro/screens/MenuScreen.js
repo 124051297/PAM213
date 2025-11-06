@@ -4,9 +4,9 @@ import ContadorScreen from './ContadorScreen';
 import BotonesScreen from './BotonesScreen';
 import TextInputYAlert from './TextInputYAlert';
 import ImageBackgroungYSlapshScreen from './ImageBackgroungYSlapshScreen';
-import ScrollView from './ScrollView';
+import ScrollViewScreen from './ScrollViewScreen';
 import ActivityIndicato from './ActivityIndicato';
-
+import Repaso1 from './repaso1';
 
 export default function MenuScreen() {
   const [screen, setScreen] = useState('menu');
@@ -24,9 +24,11 @@ export default function MenuScreen() {
     case 'ImageBackgroung':
       return <ImageBackgroungYSlapshScreen />;
       
-    case 'ScrollView':
-      return <ScrollView />;
+    case 'ScrollViewScreen':
+      return <ScrollViewScreen/>;
   
+     case 'Repaso1':
+      return <Repaso1 />;
 
     default:
       return (
@@ -36,7 +38,8 @@ export default function MenuScreen() {
           <Button title="Práctica: Botones" onPress={() => setScreen('botones')} />
           <Button title="Práctica: Text Input y Alert" onPress={() => setScreen('TextInput')} />
           <Button title="Práctica: ImageBackgroung Y SlapshScreen" onPress={() => setScreen('ImageBackgroung')} />
-          <Button title="Práctica: ScrollView" onPress={() => setScreen('ScrollView')} />
+          <Button title="Práctica: ScrollView" onPress={() => setScreen('ScrollViewScreen')} />
+          <Button title="Práctica: Repaso 1" onPress={() => setScreen('Repaso1')} />
         </View>
       );
   }
