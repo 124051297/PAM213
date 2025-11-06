@@ -58,7 +58,7 @@ export default function ImageBackgroungYSlapshScreen()
 
     <View style ={styles.centrar}>
        <View style ={styles.recuadros} >
-            <Text >Imagen 1</Text>
+            <Text style={styles.titulos} >Imagen 1</Text>
            <ImageBackground
             source={SPLASH_IMAGE}
             resizeMode="cover"
@@ -75,7 +75,7 @@ export default function ImageBackgroungYSlapshScreen()
 
 
         <View style ={styles.recuadros} >
-            <Text>Imagen 2</Text>
+            <Text style={styles.titulos}>Imagen 2</Text>
            <ImageBackground
             source={SPLASH_IMAGE}
             resizeMode="cover"
@@ -91,7 +91,7 @@ export default function ImageBackgroungYSlapshScreen()
        </View>
 
           <View style ={styles.recuadros} >
-            <Text>Imagen 3</Text>
+            <Text style={styles.titulos}>Imagen 3</Text>
            <ImageBackground
             source={SPLASH_IMAGE}
             resizeMode="cover"
@@ -107,7 +107,7 @@ export default function ImageBackgroungYSlapshScreen()
        </View>
 
            <View style ={styles.recuadros} >
-            <Text>Imagen 4</Text>
+            <Text style={styles.titulos}>Imagen 4</Text>
            <ImageBackground
             source={SPLASH_IMAGE}
             resizeMode="cover"
@@ -124,7 +124,7 @@ export default function ImageBackgroungYSlapshScreen()
 
 
            <View style ={styles.recuadros} >
-            <Text>Imagen 5</Text>
+            <Text style={styles.titulos}>Imagen 5</Text>
            <ImageBackground
             source={SPLASH_IMAGE}
             resizeMode="cover"
@@ -140,7 +140,7 @@ export default function ImageBackgroungYSlapshScreen()
        </View>
 
            <View style ={styles.recuadros} >
-            <Text>Imagen 6</Text>
+            <Text style={styles.titulos}>Imagen 6</Text>
            <ImageBackground
             source={SPLASH_IMAGE}
             resizeMode="cover"
@@ -167,7 +167,10 @@ export default function ImageBackgroungYSlapshScreen()
 
 const styles = StyleSheet.create({
 
-
+    titulos:{
+        fontSize: 25,
+       
+    },
 
     centrar:{
         alignContent: 'center',
