@@ -68,7 +68,7 @@ export default function ImageBackgroungYSlapshScreen()
            </ImageBackground>
            <Text>Esta imagen tiene la funcion de rellenar el examen c:</Text>
            <TouchableOpacity>
-                <Button  style ={styles.botones}   onPress={()=> alert('Titulo: Imagen 1 \n Detalles: Imagen elavorada y saca de internet a base de uso del examen ',) } title="Ver detalles"></Button>
+                <Button  style ={styles.botones}   onPress={()=> alert('Titulo: Imagen 1 \n Detalles: Imagen elavorada y saca de internet a base de uso del examen ',[{ text: 'Cancelar', style: 'cancel' }]) }title="Ver detalles"></Button>
            </TouchableOpacity>
          
        </View>
@@ -85,7 +85,7 @@ export default function ImageBackgroungYSlapshScreen()
            </ImageBackground>
            <Text>Esta imagen tiene la funcion de rellenar el examen c:</Text>
            <TouchableOpacity>
-                <Button  style ={styles.botones}  onPress={()=> alert('Titulo: Imagen 2 \n Detalles: Imagen elavorada y saca de internet a base de uso del examen ')} title="Ver detalles"></Button>
+                <Button  style ={styles.botones}  onPress={()=> alert('Titulo: Imagen 2 \n Detalles: Imagen elavorada y saca de internet a base de uso del examen ',[{ text: 'Cancelar', style: 'cancel' }])} title="Ver detalles"></Button>
            </TouchableOpacity>
          
        </View>
@@ -101,7 +101,7 @@ export default function ImageBackgroungYSlapshScreen()
            </ImageBackground>
            <Text>Esta imagen tiene la funcion de rellenar el examen c:</Text>
            <TouchableOpacity>
-                <Button  style ={styles.botones}  onPress={()=> alert('Titulo: Imagen 3 \n Detalles: Imagen elavorada y saca de internet a base de uso del examen ')} title="Ver detalles"></Button>
+                <Button  style ={styles.botones}  onPress={()=> alert('Titulo: Imagen 3 \n Detalles: Imagen elavorada y saca de internet a base de uso del examen ',[{ text: 'Cancelar', style: 'cancel' }])} title="Ver detalles"></Button>
            </TouchableOpacity>
          
        </View>
@@ -117,7 +117,7 @@ export default function ImageBackgroungYSlapshScreen()
            </ImageBackground>
            <Text>Esta imagen tiene la funcion de rellenar el examen c:</Text>
            <TouchableOpacity>
-                <Button  style ={styles.botones}  onPress={()=> alert('Titulo: Imagen 4 \n Detalles: Imagen elavorada y saca de internet a base de uso del examen ')} title="Ver detalles"></Button>
+                <Button  style ={styles.botones}  onPress={()=> alert('Titulo: Imagen 4 \n Detalles: Imagen elavorada y saca de internet a base de uso del examen ',[{ text: 'Cancelar', style: 'cancel' }])} title="Ver detalles"></Button>
            </TouchableOpacity>
          
        </View>
@@ -134,7 +134,7 @@ export default function ImageBackgroungYSlapshScreen()
            </ImageBackground>
            <Text>Esta imagen tiene la funcion de rellenar el examen c:</Text>
            <TouchableOpacity>
-                <Button  style ={styles.botones}  onPress={()=> alert('Titulo: Imagen 5 \n Detalles: Imagen elavorada y saca de internet a base de uso del examen ')} title="Ver detalles"></Button>
+                <Button  style ={styles.botones}  onPress={()=> alert('Titulo: Imagen 5 \n Detalles: Imagen elavorada y saca de internet a base de uso del examen ',[{ text: 'Cancelar', style: 'cancel' }])} title="Ver detalles"></Button>
            </TouchableOpacity>
          
        </View>
@@ -150,7 +150,7 @@ export default function ImageBackgroungYSlapshScreen()
            </ImageBackground>
            <Text>Esta imagen tiene la funcion de rellenar el examen c:</Text>
            <TouchableOpacity>
-                <Button  style ={styles.botones}  onPress={()=> alert('Titulo: Imagen 6 \n Detalles: Imagen elavorada y saca de internet a base de uso del examen ')} title="Ver detalles"></Button>
+                <Button  style ={styles.botones}  onPress={()=> alert('Titulo: Imagen 6 \n Detalles: Imagen elavorada y saca de internet a base de uso del examen ',[{ text: 'Cancelar', style: 'cancel' }])} title="Ver detalles"></Button>
            </TouchableOpacity>
          
        </View>
