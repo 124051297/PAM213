@@ -3,6 +3,7 @@ import {StyleSheet,Text,View, Button, Switch} from 'react-native';
 import React, {useState} from 'react';
 
 
+
 export default function BotonesScreen() {
 
     const [modoOscuro, setModoOscuro] = useState(false);

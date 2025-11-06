@@ -67,6 +67,7 @@ export default function Repaso1() {
     }
 
     
+    
     if (Platform.OS === "web") {
       alert(`Registro Exitoso,\n Nombre:  ${nombre} \n Corrreo: ${correo}`);
     } else {

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, Alert, StyleSheet, Platform } from 'react-native';
 
+
 export default function TextInputYAlert() {
   const [nombre, setNombre] = useState('');
   const [contrasena, setContrasena] = useState('');

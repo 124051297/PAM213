@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Text, StyleSheet, View, ScrollView, Button } from 'react-native';
 
+
 export default function ScrollViewScreen() 
 {
   const [item, setItems] = useState(["Opción 1", "Opción 2", "Opción 3"]);
@@ -11,6 +12,7 @@ export default function ScrollViewScreen()
       const nuevaOpcion = `Opción ${item.length + 1}`;
       setItems([...item,nuevaOpcion]);
     }; 
+
 
 
   const borrarUltima = () =>

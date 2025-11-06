@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 import React,{useState} from 'react';
 
 
+
 export default function App()   
 {
  const [contador, setContador]= useState(0);

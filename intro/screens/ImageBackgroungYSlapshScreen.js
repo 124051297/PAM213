@@ -7,6 +7,7 @@ const SPLASH_IMAGE = require('../assets/recursos/Captura de pantalla 2025-06-17 
 const MAIN_IMAGE = require('../assets/recursos/Captura de pantalla 2025-09-16 231743.png');
 
 
+
 export default function ImageBackgroungYSlapshScreen()
 {
 
