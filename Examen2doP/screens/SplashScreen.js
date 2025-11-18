@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
     centrar:{
         alignContent: 'center',
         alignItems: 'center',
-        gap: 20,
+        gap: 20 ,
     },
 
 

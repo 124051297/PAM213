@@ -7,6 +7,9 @@ import ImageBackgroungYSlapshScreen from './ImageBackgroungYSlapshScreen';
 import ScrollViewScreen from './ScrollViewScreen';
 import ActivityIndicato from './ActivityIndicato';
 import Repaso1 from './repaso1';
+import Flatlist from './Flatlist';
+import SectionListScreen from './SectionListScreen';
+import ModalScreen from './ModalScreen';
 
 
 export default function MenuScreen() {
@@ -31,6 +34,22 @@ export default function MenuScreen() {
      case 'Repaso1':
       return <Repaso1 />;
 
+
+      case 'ActivityIndicato':
+      return <ActivityIndicato/>;
+
+
+      case 'Flatlist':
+      return <Flatlist/>;
+
+
+      case 'SectionListScreen':
+      return <SectionListScreen/>;
+
+      case 'ModalScreen':
+      return <ModalScreen/>;
+
+
     default:
       return (
         <View style={styles.container}>
@@ -41,6 +60,10 @@ export default function MenuScreen() {
           <Button title="Práctica: ImageBackgroung Y SlapshScreen" onPress={() => setScreen('ImageBackgroung')} />
           <Button title="Práctica: ScrollView" onPress={() => setScreen('ScrollViewScreen')} />
           <Button title="Práctica: Repaso 1" onPress={() => setScreen('Repaso1')} />
+          <Button title="Práctica: ActivityIndicato" onPress={() => setScreen('ActivityIndicato')} />
+          <Button title="Práctica: Flatlist" onPress={() => setScreen('Flatlist')} />
+          <Button title="Práctica: SectionList" onPress={() => setScreen('SectionListScreen')} />
+          <Button title="Práctica: Modal" onPress={() => setScreen('ModalScreen')} />
         </View>
       );
   }
